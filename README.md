@@ -19,7 +19,7 @@ Using `Librosa` we can perform lot of operation on audio file easily and it can 
 ## All Important Features in Librosa
 ### Beat Tracking
 Librosa also provides functionality for beat tracking in audio file
-
+![3](https://github.com/AhmedShafique313/librosa_python/assets/99950606/f9f69824-9ccb-4acf-b1a6-85aa7bc4f661)
 ### Spectrogram
 A spectrogram is a visual representation of the spectrum of frequencies of a signal as it varies with time. Librosa can compute the spectrogram of an audio signal.
 - librosa.stft(y): This function computes the Short-Time Fourier Transform (STFT) of the audio signal y. The STFT represents a signal in the time-frequency domain. It decomposes the signal into its constituent sinusoidal components over small time windows.
@@ -28,10 +28,10 @@ A spectrogram is a visual representation of the spectrum of frequencies of a sig
 
 - librosa.amplitude_to_db(D, ref=np.max): This function converts the magnitude spectrogram D (computed from the STFT) to decibel (dB) units, which are commonly used in audio processing. It applies a logarithmic scale to the magnitude values, which can help visualize the dynamic range of the signal more clearly. The ref=np.max argument sets the reference power to the maximum value in the input spectrogram D.
 
-
+![4](https://github.com/AhmedShafique313/librosa_python/assets/99950606/b42037fe-d735-4a59-a9d9-69fcaaec26b0)
 ### Chromagram
 A chromagram is a representation of the energy distribution of pitch classes (or chroma) in an audio signal. It's useful for tasks like chord recognition and key estimation
-
+![5](https://github.com/AhmedShafique313/librosa_python/assets/99950606/d98b8589-4729-41d8-84df-2a26d23f8f9f)
 ### Tempo Estimation
 Librosa can estimate the tempo (beats per minute) of an audio signal
 
