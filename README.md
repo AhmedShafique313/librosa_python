@@ -14,6 +14,7 @@ Using `Librosa` we can perform lot of operation on audio file easily and it can 
 ### Lesson2
 - We calculated the Mel-Frequency Cepstral Coeffiencts (MFCCS)
 - Plotted the MFCCS
+  
 ![Figure_2](https://github.com/AhmedShafique313/librosa_python/assets/99950606/bb8ea548-fa98-40e7-a208-e4eedba83728)
 
 ## All Important Features in Librosa
