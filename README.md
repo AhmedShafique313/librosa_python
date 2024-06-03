@@ -33,7 +33,7 @@ A spectrogram is a visual representation of the spectrum of frequencies of a sig
 A chromagram is a representation of the energy distribution of pitch classes (or chroma) in an audio signal. It's useful for tasks like chord recognition and key estimation
 ![5](https://github.com/AhmedShafique313/librosa_python/assets/99950606/d98b8589-4729-41d8-84df-2a26d23f8f9f)
 ### Tempo Estimation
-Librosa can estimate the tempo (beats per minute) of an audio signal
+Librosa can estimate the tempo (beats per minute) of an audio signal: Estimated Tempos: 123.05 BPM
 
 ### Onset Detection
 Onsets are points in time where a sound event begins. Librosa can detect onsets in an audio signal.
@@ -41,10 +41,12 @@ Onsets are points in time where a sound event begins. Librosa can detect onsets 
 
 - onset_times = librosa.frames_to_time(onset_frames, sr=sr): This line converts the onset frame indices (onset_frames) into time values in seconds using the librosa.frames_to_time() function. The sr=sr argument specifies the sampling rate of the audio signal. The resulting onset_times array contains the time values (in seconds) corresponding to the detected onsets.
 
-
+![onset](https://github.com/AhmedShafique313/librosa_python/assets/99950606/cb93a0bf-cd34-4ee4-a0c2-de73d13c3fc9)
 ### Tempo and Beat Tracking Visualization
 Combine beat tracking and onset detection for a comprehensive rhythm analysis visualization
-
-
+![onset](https://github.com/AhmedShafique313/librosa_python/assets/99950606/cb93a0bf-cd34-4ee4-a0c2-de73d13c3fc9)
 ### Harmonic-Percussive Source Separation
 Separate an audio signal into harmonic and percussive components. 
+![harmonic](https://github.com/AhmedShafique313/librosa_python/assets/99950606/e4479cb0-b8fe-4a33-8a20-ef9228dd4889)
+This function separates an audio signal into its harmonic and percussive components. It takes the audio signal y as input and returns two signals: harmonic and percussive. The harmonic signal contains tonal or pitched components, such as melodies and chords, while the percussive signal contains non-pitched or transient components, such as drums and percussion.
+![percussive](https://github.com/AhmedShafique313/librosa_python/assets/99950606/93191bd2-a1cc-444f-95ef-7583267bfb88)
