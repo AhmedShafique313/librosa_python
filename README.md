@@ -10,7 +10,6 @@ Using `Librosa` we can perform lot of operation on audio file easily and it can 
 ### Lesson1
 - We plot the audio waveform before plotting we load using librosa
 ![Figure_1](https://github.com/AhmedShafique313/librosa_python/assets/99950606/b9dc0250-5857-4a52-acf0-762e6a144a7c)
-re_1.png
 
 ### Lesson2
 - We calculated the Mel-Frequency Cepstral Coeffiencts (MFCCS)
