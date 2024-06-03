@@ -51,3 +51,14 @@ Separate an audio signal into harmonic and percussive components.
 ![harmonic](https://github.com/AhmedShafique313/librosa_python/assets/99950606/e4479cb0-b8fe-4a33-8a20-ef9228dd4889)
 This function separates an audio signal into its harmonic and percussive components. It takes the audio signal y as input and returns two signals: harmonic and percussive. The harmonic signal contains tonal or pitched components, such as melodies and chords, while the percussive signal contains non-pitched or transient components, such as drums and percussion.
 ![percussive](https://github.com/AhmedShafique313/librosa_python/assets/99950606/93191bd2-a1cc-444f-95ef-7583267bfb88)
+
+### Melody Extraction
+Melody extraction is the process of identifying the main melody in an audio signal. Librosa provides functions for melody extraction
+![modility](https://github.com/AhmedShafique313/librosa_python/assets/99950606/5208c947-8bf8-4876-a39e-15955e2f33d9)
+### Audio Analysis
+Spectral Centroid:
+The spectral centroid represents the "center of mass" of the spectrum of an audio signal. It can be useful for timbral analysis:
+![spectral](https://github.com/AhmedShafique313/librosa_python/assets/99950606/f5ac0875-0cf4-4090-8124-b9ef6b4ab790)
+### Machine Learning Integration
+Librosa can be integrated with machine learning libraries like scikit-learn for audio classification and other tasks.
+![ml](https://github.com/AhmedShafique313/librosa_python/assets/99950606/03d8ea13-853b-4edf-8ae4-d8ca591511a2)
