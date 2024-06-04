@@ -65,3 +65,5 @@ Librosa can be integrated with machine learning libraries like scikit-learn for 
 ### Melody Extraction
 Melody extraction is the process of identifying the main melody in an audio signal. Librosa provides functions for melody extraction
 ![modility](https://github.com/AhmedShafique313/librosa_python/assets/99950606/5208c947-8bf8-4876-a39e-15955e2f33d9)
+
+# Apply techniques and expert in librosa
